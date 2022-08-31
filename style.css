@@ -64,6 +64,7 @@ a {
     height: 100%;
     flex: 1;
     margin: 5px;
+    border-radius: 30px;
 }
 
 .projects {
@@ -123,4 +124,29 @@ a {
 .icons img {
    height: auto;
    width: 96px;
+}
+
+.contact {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    justify-items: center;
+    background-color: lightslategray;
+    align-items: center;
+    font-size: 24px;
+    font-size: bold;    
+    padding: 16px; 
+    margin: 0px;
+    border: 1px lightgray solid;
+}
+
+.contact a {
+    margin: 0 10px;
+}
+
+.contact-icons {
+    display: flex;
+    flex-direction: row;
 }
