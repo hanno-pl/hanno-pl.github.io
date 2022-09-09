@@ -1,7 +1,6 @@
-* {
-    margin: 0;
-    padding: 0;
-  }
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     font-size: 18px;
@@ -21,6 +20,7 @@ nav {
     padding: 16px; 
     margin: 0px;
     border: 1px lightgray solid;
+    justify-content: space-between;
 }
 
 nav ul {
@@ -29,7 +29,6 @@ nav ul {
     padding: 0;
     align-items: center;
     margin: 0;
-    margin-left: auto;
     color: black;
 }
 
