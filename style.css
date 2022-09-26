@@ -61,9 +61,11 @@ a {
 
 .info img {    
     height: 100%;
+    max-width: 400px;
     flex: 1;
     margin: 5px;
     border-radius: 30px;
+    float: right;
 }
 
 .projects {
